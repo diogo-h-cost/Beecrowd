@@ -1,5 +1,4 @@
 nt = int(input())
-
 if nt == 0:
     print("E")
 elif nt <= 35:
