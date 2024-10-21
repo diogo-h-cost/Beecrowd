@@ -1,0 +1,6 @@
+cod1, n1, val1 = input().split(" ")
+cod2, n2, val2 = input().split(" ")
+n1, val1 = int(n1), float(val1)
+n2, val2 = int(n2), float(val2)
+som = (n1 * val1) + (n2 * val2)
+print(f"VALOR A PAGAR: R$ {som:.2f}")
